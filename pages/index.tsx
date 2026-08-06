@@ -50,7 +50,6 @@ export async function getStaticProps() {
 
     return {
       props: { githubProfileData },
-      revalidate: 60,
     };
   } catch (error) {
     console.error("Failed to fetch GitHub profile data:", error);
@@ -63,7 +62,6 @@ export async function getStaticProps() {
           location: "",
         },
       },
-      revalidate: 60,
     };
   }
 }

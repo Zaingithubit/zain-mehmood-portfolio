@@ -12,26 +12,24 @@ import {
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
-  name: "Hanzla Tauqeer",
-  title: "Hi all, I'm Hanzla",
+  name: "Zain Mehmood",
+  title: "Hi all, I'm Zain Mehood",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, Django, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full-Stack JavaScript Developer with experience building scalable web applications using Next.js, React.js, Node.js, Express.js, GraphQL, MongoDB, and Material UI. I enjoy learning new technologies, writing clean and maintainable code, solving real-world problems, and collaborating with teams to deliver high-quality software.",
   resumeLink: "#",
 };
 
 export const openSource = {
-  githubUserName: "1hanzla100",
+  githubUserName: "Zaingithubit",
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
-  linkedin: "https://www.linkedin.com/in/1hanzla100/",
-  github: "https://github.com/1hanzla100",
-  instagram: "https://www.instagram.com/__hanzla100",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  email: "zainmehmood986@gmail.com",
+  linkedin: "https://www.linkedin.com/in/zain-mehmood-a42213277/",
+  github: "https://github.com/Zaingithubit",
+  instagram: "https://www.instagram.com/zainmehmood_786",
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -42,46 +40,62 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building scalable, responsive, and high-performance web applications using Next.js and React.js"),
+        emoji("⚡ Developing RESTful APIs and GraphQL APIs with Node.js, Express.js, and MongoDB"),
+        emoji("⚡ Creating modern, user-friendly interfaces with Material UI, Bootstrap, JavaScript, and jQuery"),
       ],
       softwareSkills: [
-        {
-          skillName: "Python",
-          iconifyTag: "logos:python",
-        },
-        {
-          skillName: "Django",
-          iconifyTag: "vscode-icons:file-type-django",
-        },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
+          skillName: "TypeScript",
+          iconifyTag: "logos:typescript-icon",
+        },
+        {
+          skillName: "React.js",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: "Nextjs",
+          skillName: "Next.js",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
-          iconifyTag: "logos:aws",
+          skillName: "Node.js",
+          iconifyTag: "logos:nodejs-icon",
         },
         {
-          skillName: "Heroku",
-          iconifyTag: "logos:heroku-icon",
+          skillName: "Express.js",
+          iconifyTag: "simple-icons:express",
         },
         {
-          skillName: "Github",
+          skillName: "GraphQL",
+          iconifyTag: "logos:graphql",
+        },
+        {
+          skillName: "MongoDB",
+          iconifyTag: "logos:mongodb-icon",
+        },
+        {
+          skillName: "Material UI",
+          iconifyTag: "logos:material-ui",
+        },
+        {
+          skillName: "Bootstrap",
+          iconifyTag: "logos:bootstrap",
+        },
+        {
+          skillName: "Git",
+          iconifyTag: "logos:git-icon",
+        },
+        {
+          skillName: "GitHub",
           iconifyTag: "akar-icons:github-fill",
         },
         {
-          skillName: "Docker",
-          iconifyTag: "logos:docker-icon",
+          skillName: "jQuery",
+          iconifyTag: "logos:jquery",
         },
       ],
     },
@@ -105,9 +119,9 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
+    schoolName: "Allama Iqbal Open University",
     subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    duration: "December 2020 - July 2023",
     desc: "",
     grade: "Grade A",
     descBullets: [], // Array of Strings
@@ -116,36 +130,19 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
+    role: "Frontend Developer",
+    company: "DevArx",
+    companyLogo: "https://www.devarx.org/assets/logo.svg",
     date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+    desc: "Developed responsive and modern frontend applications using Next.js, React.js, JavaScript, Material UI, Bootstrap, and jQuery. Built reusable UI components, integrated REST and GraphQL APIs, optimized application performance, and collaborated with cross-functional teams to deliver intuitive, scalable, and user-friendly web experiences.",
   },
   {
     role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
-  },
-  {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    company: "Pixako Technologies (Pvt.) Ltd.",
+    companyLogo:
+      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABnRSTlMAAAAAAABupgeRAAADN0lEQVR4AWKgOfhPYzDcLPhHJoBoJWwBVCmg2XKAESuIouidP1O3cVLbblSERdxGdRvWtm3btm23a9u2bfvtn+x0bU1Ovue+d/8wP7+uaRbk5eXn5lJFmWLlAUqr52Vk5CSn5Kam1kBK8Tel5WSY0oag1OVrOsZbWX3p3/9rjx5fevYkvlbNlx49vvbq9XvcOIt583yvXUsNCFCGlCZK505kxcV97tfvKfACeE7HmqBvngFPdF536mi9bFlGWJjKlZSh2jY/J4eORtOnPwJeCvGCsVryUtPoe4KCPQTedusW8f17cQzdh+6gJKDbsWP3gRft2j3j/LkQtYG+fMYYOZbQE8rvEdMi//0jQUoaxbnn5tHR78mTm8Bd4A4d68ID4InGHwOSJ5zfB9707JkVH08mIDtyXmamzZYtJosXmy9darZ4idmSGqBvJAazZr0fPvwWcF/ngX58yPkNwPXsWTKB0sOkfoX+g+vFizcZu8O0O/IHaNo1xr5OmUKyKN1H6dN6IBvzy9Rpl4FbnN8EKNhV4MWQIWUc5OXk1I/crCxS+DpjxnngGhckfZWxi8CTQYNIu3Emu8Bv3y61b3+RsUtAMRo7A7ycMIHyhhzZGbGxDpcv1wPLI0c+z5p1FiDFcyVc4PwoYLprFymDPNIpyt7+MFAPDgFHgNM6p3ROM3ZS4+c6dUoKCKDsIYdYtLPzCS5OcF5rROmL4wBxDDihaccZ2wM43r5NsnnZ2ZABopyc6ueAOAJ2RNOOCXGE873AAcYs9RFAytQGkAEinZ33A3Vln34k0V3ANmAHcHPSpCAjI6VOF1AByFc59mraPiH2cb6PiyoR4nCXLpdGjXq/bJn3jx+yy0hNKv8dRDg77QQUuzS+ETA5ezbe3z/a0zPO17dK/PxSo6JKr1py3KmlVAVwJo+SrcB2ztcATq9e1X4okA5Jl1ql9aIChDs7bwYUWzhfBdg+fkyWaaDSsQYq6FYSYIsQiq3t2q0Wwu7ZM3olB0o9ixpooQ4OSwHFMmAhYHn/Pr3Kzc5uUADZJkkRER+2bvuwTWfr1o/bt7/etCnE3l6ufK17Z6e2FDmZmeVQHa5BAZq6FAHMlfu+SdTMfQAAAABJRU5ErkJggg==",
+    date: "Nov 2024 - Aug 2026",
+    desc: "Crafted scalable and high-performance full-stack web applications using Next.js, React.js, Node.js, Express.js, GraphQL, MongoDB, and Material UI. Focused on developing responsive user interfaces, robust backend APIs, and maintainable code while collaborating with cross-functional teams to deliver reliable, user-centric software solutions. Passionate about learning new technologies, solving real-world problems, and continuously improving development practices.",
   },
 ];
 
@@ -153,61 +150,60 @@ export const projects: ProjectType[] = [
   {
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    github: "https://github.com/Zaingithubit/zain-mehmood-portfolio",
+    link: "", // developer-portfolio-1hanzla100.vercel.app
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    name: "URL Shortener",
+    desc: "A full-stack URL Shortener application built with Node.js, Express.js, MongoDB, and React.js. It allows users to generate short URLs from long links, redirect instantly, track click analytics, and manage URLs through a clean and responsive interface.",
+    github: "https://github.com/Zaingithubit/URL-Shortener",
   },
   {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    name: "Spotify Clone",
+    desc: "A responsive Spotify-inspired music streaming interface built using HTML, CSS, and JavaScript. The project recreates the look and feel of Spotify with a modern UI, interactive music controls, playlist sections, and a seamless user experience while demonstrating front-end development fundamentals.",
+    github: "https://github.com/Zaingithubit/spotyfy-clone",
   },
   {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Uber Clone",
+    desc: "A full-stack Uber Clone built with React.js, Node.js, Express.js, and MongoDB. It features user and driver authentication, ride booking, real-time location integration, trip management, fare estimation, and a responsive interface that simulates the core functionality of a modern ride-hailing platform.",
+    github: "https://github.com/Zaingithubit/Uber-Clone-MERN-Stack",
+  },
+  {
+    name: "Fleet Management System",
+    desc: "A full-stack fleet management application built with Next.js, GraphQL, Node.js, MongoDB (Mongoose), and Material UI. It features reusable common components for Vehicle, Driver, and Contact management, dynamic forms with validation, CRUD operations, GraphQL APIs, and a responsive, scalable architecture for efficient data management.",
+    github: "https://github.com/Zaingithubit/crud-in-type-script-common-componets",
   },
 ];
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
+    name: "Muhammad Talha",
+    role: "Frontend Developer at DevArx Software",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "   You have been a wonderful addition to our team, Alhamdulillah. I’m truly impressed by your technical abilities, professionalism, and work ethic. You approach challenges with a unique perspective and consistently ask thoughtful questions that lead to better solutions. Finding a teammate like Hanzla is rare. He has made valuable contributions to the growth of our organization and continues to add value every day. May Allah bless you with success, happiness, and everything you aspire to achieve.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
+    name: "Muhammad Basit",
+    role: "Software Engineer",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+      "Zain Mehmood has a strong understanding of modern web development technologies and consistently applies them to build scalable, secure, and high-performance web applications. He is proficient in Next.js, React.js, Node.js, Express.js, GraphQL, MongoDB, and Material UI, delivering clean, maintainable, and user-focused solutions. Throughout his career, Zain has contributed to projects of varying complexity, demonstrating excellent problem-solving skills, professionalism, and the ability to collaborate effectively within cross-functional teams. He is dependable, quick to learn, and always strives to deliver high-quality results. Zain is a pleasure to work with, and I have no doubt that he will be a valuable asset to any team or organization. I highly recommend him for any Full-Stack JavaScript development role and wish him continued success in all his future endeavors.",
   },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: "Hanzla Tauqeer",
+  title: "Zain Mehmood",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Zain Mehmood",
+  image: "https://avatars.githubusercontent.com/u/134782085?s=96&amp;v=4",
+  url: "", // add vercel url link
   keywords: [
     "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Zain Mehmood",
+    "@Zaingithubit",
+    "Zaingithubit",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Zain Portfolio ",
+    "Zain Mehmood Portfolio",
   ],
 };

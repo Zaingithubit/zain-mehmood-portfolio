@@ -35,14 +35,16 @@ const Greetings = () => {
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
+                        tag="a"
+                        href="/resume.pdf"
+                        download
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">See My Resume</span>
+                        <span className="btn-inner--text">SEE MY RESUME</span>
                       </Button>
                     </div>
                   )}

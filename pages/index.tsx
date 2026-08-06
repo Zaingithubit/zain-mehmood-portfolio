@@ -34,11 +34,36 @@ export default function Home({ githubProfileData }: { githubProfileData: any }) 
 // };
 
 export async function getStaticProps() {
-  const githubProfileData: GithubUserType = await fetch(
-    `https://api.github.com/users/${openSource.githubUserName}`
-  ).then(res => res.json());
+  try {
+    const res = await fetch(`https://api.github.com/users/${openSource.githubUserName}`, {
+      headers: {
+        Accept: "application/vnd.github+json",
+        "User-Agent": "zain-portfolio-site",
+      },
+    });
 
-  return {
-    props: { githubProfileData },
-  };
+    if (!res.ok) {
+      throw new Error(`GitHub API request failed with status ${res.status}`);
+    }
+
+    const githubProfileData: GithubUserType = await res.json();
+
+    return {
+      props: { githubProfileData },
+      revalidate: 60,
+    };
+  } catch (error) {
+    console.error("Failed to fetch GitHub profile data:", error);
+
+    return {
+      props: {
+        githubProfileData: {
+          avatar_url: "",
+          bio: "",
+          location: "",
+        },
+      },
+      revalidate: 60,
+    };
+  }
 }

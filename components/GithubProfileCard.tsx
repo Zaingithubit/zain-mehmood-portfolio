@@ -3,7 +3,7 @@ import { Card, Col, Row, Container } from "reactstrap";
 import { GithubUserType } from "../types";
 import SocialLinks from "./SocialLinks";
 
-const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
+const GithubProfileCard = ({ avatar_url = "", bio = "", location = "" }: Partial<GithubUserType>) => {
   return (
     <Card className="section-lg bg-gradient-info shadow-lg border-0">
       <Container className="">

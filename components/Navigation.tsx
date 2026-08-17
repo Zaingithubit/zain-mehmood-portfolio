@@ -10,10 +10,14 @@ const Navigation = () => {
   const onExited = () => setCollapseClasses("");
 
   useEffect(() => {
-    let headroom = new Headroom(document.getElementById("navbar-main")!);
-    // initialise
+    if (typeof window === "undefined") return;
+
+    const navbar = document.getElementById("navbar-main");
+    if (!navbar) return;
+
+    const headroom = new Headroom(navbar);
     headroom.init();
-  });
+  }, []);
 
   return (
     <>

@@ -6,9 +6,13 @@ import SocialLinks from "../components/SocialLinks";
 
 const Greetings = () => {
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     document.documentElement.scrollTop = 0;
-    document.scrollingElement!.scrollTop = 0;
-  });
+    if (document.scrollingElement) {
+      document.scrollingElement.scrollTop = 0;
+    }
+  }, []);
 
   return (
     <main>
